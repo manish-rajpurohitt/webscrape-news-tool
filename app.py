@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-n = input()
 url = "https://news.ycombinator.com/"
 content = requests.get(url)
 soup = BeautifulSoup(content.content,'html.parser')
